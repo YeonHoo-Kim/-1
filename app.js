@@ -42,8 +42,8 @@ app.post('/',(req,res) => {
                 'time' : date,
                 'email' : 'kywho0915@naver.com',
 		'stuno' : '20141515'
-		};
-		Object.assign(obj, req.body);
+	};
+	Object.assign(obj, req.body);
         Object.assign(obj, data);
         res.send(obj)
 })
